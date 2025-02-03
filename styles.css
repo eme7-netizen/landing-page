@@ -101,26 +101,52 @@ img{
 
 /*third strip*/
 .third{
-    flex-direction: column;
-    background-color: #e5e7eb;
-    
+    background-color: #b9b9b9;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+    width: 63%;
 }
 
 .text{
-font-size: 36px;
-font-style:italic;
-color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .thor{
-    align-self: flex-end;
+    font-size: 22px;
     font-weight: bold;
+    align-self: flex-end;
+}
+
+.fourth{
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-content{
+    display: flex;
+    background-color: #3882f6;
+    align-items: baseline;
+    margin: 0;
+}
+
+.blue-content > button {
+
+    border-style: solid;
+    border-color: white;
+    align-self: center;
+    
+    
+}
+
+.sign-up-text{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
