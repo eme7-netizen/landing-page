@@ -134,6 +134,9 @@ img{
     background-color: #3882f6;
     align-items: baseline;
     margin: 0;
+    padding: 50px;
+    gap: 100px;
+    border-radius: 10px;
 }
 
 .blue-content > button {
@@ -148,5 +151,21 @@ img{
 .sign-up-text{
     display: flex;
     flex-direction: column;
+    color: white;
+    
+}
+
+.sign-up-text > p{
     margin: 0;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
